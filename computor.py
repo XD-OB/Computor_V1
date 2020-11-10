@@ -10,6 +10,8 @@
 #                                                                              #
 # **************************************************************************** #
 
+#!/usr/bin/env python3
+
 from srcs.resolver import resolve_deg_2, resolve_deg_1, resolve_deg_0
 from srcs.polynome import dict_polynome
 import sys

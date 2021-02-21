@@ -14,7 +14,7 @@ The program should display its solution(s).
 
 ## Usage:
 
-`python3 computor.py <equation>`
+`python3 computor.py [-d][-v] <equation>`
 
 ![usage](/ressources/usage.png)
 
@@ -44,3 +44,7 @@ The program should display its solution(s).
 ## Owners
 
 - **Oussama Belouche** 1337
+
+#
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)

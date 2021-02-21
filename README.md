@@ -1,16 +1,46 @@
 # Computor V1
 
-Program that solves simple equations.The program takes a polynomial equation.
-That is to say, involving only powers, nocomplicated functions. The program should display its solution(s).
+Build a program that solves polynomial equations of degrees 0, 1 and 2.<br/>
+The program should display its solution(s).
 
-[project_pdf!](http://https//github.com/XD-OB/ft_select/blob/master/computorv1.en.pdf)
+[Subject](/ressources/computorv1.en.pdf)
 
-## install modules
-pip3 install numpy
+## Dependencies
 
-pip3 install matplotlib 
+- Install python 3+
+- Install pip3
+- `pip3 install numpy`
+- `pip3 install matplotlib`
 
-## Owners:
-**obelouch** 1337
+## Usage:
 
-**aelouarg** 1337
+`python3 computor.py <equation>`
+
+![usage](/ressources/usage.png)
+
+- Degree 1 + detail:
+
+![deg1](/ressources/deg1.png)
+
+![deg1](/ressources/deg1_d.png)
+
+- Degree 2 ( delta < 0 ):
+
+![deg2_delta_neg](/ressources/deg2_delta_neg.png)
+
+- Degree 2 ( delta > 0 ) + detail + Visualizer:
+
+![deg2_delta_pos_d](/ressources/deg2_delta_pos_d.png)
+
+![display](/ressources/display.png)
+
+## Bonuses
+
+- Show steps
+- Natural syntax handling
+- Power disorder syntax handling
+- Plot the function and show the solving points
+
+## Owners
+
+- **Oussama Belouche** 1337
